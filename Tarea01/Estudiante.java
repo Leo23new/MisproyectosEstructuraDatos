@@ -14,6 +14,10 @@ public class Estudiante {
         this.promedio = promedio;
     }
 
+    public Estudiante(String string, String string2, double d, double e, double f) {
+        //TODO Auto-generated constructor stub
+    }
+
     public int getId() {
         return id;
     }
@@ -33,5 +37,15 @@ public class Estudiante {
     @Override
     public String toString() {
         return "ID: " + id + " | Nombre: " + nombre + " | Promedio: " + promedio;
+    }
+
+    public Object getCedula() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCedula'");
+    }
+
+    public double promedioIndividual() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'promedioIndividual'");
     }
 }
